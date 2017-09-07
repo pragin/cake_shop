@@ -1,0 +1,32 @@
+/*.navbar {
+	width: 100%;
+	height: auto;
+	background-color: #4c3c3c;
+	position: absolute;
+	padding: 0;
+	top: 0;
+	z-index: 9999;
+
+}
+.header-inner{
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	width: 1160px;
+}
+.logo{
+	font-family: 'Pacifico', cursive;
+	margin-top: 42px;
+	
+
+}
+.logo .h1{
+	display: inline-block;
+}*/
+
+.navbar-brand{
+	font-family: 'Pacifico', cursive;
+	margin-top: 25px;
+	font-size: 40px;
+	font-weight: 400;
+}
