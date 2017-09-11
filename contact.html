@@ -1,69 +1,115 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<!-- Required meta tags-->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+	<!doctype html>
+	<html lang="en">
+		<head>
+			<!-- Required meta tags-->
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
 
-		<!-- Title-->
-		<title>Cake Shop</title>
+			<!-- Title-->
+			<title>Cake Shop</title>
 
-		<script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')</script>
+			<script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')</script>
 
-		<!-- Google fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+			<!-- Google fonts -->
+			<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 
-		<!-- Bootstrap css -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+			<!-- Font-awesome library -->
+			<link rel="stylesheet" href="./libs/font-awesome-4.7.0/css/font-awesome.min.css">
 
-		<link rel="stylesheet" type="text/css" href="./styles/main.css">
+			<!-- Bootstrap css -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
-
-
-	</head>
-	<body>
-
-		<div class="navbar navbar-expand-lg navbar-dark bg-dark">
-			
-			<div class="container">
-				<a href="#" class="navbar-brand"> Iyvaa Bakery</a>
-				<button class="navbar-toggler" data-toggle="collapse" data-target="#navHeaderCollapse" >
-					<span class="navbar-toggler-icon"></span>
-				</button>
+			<link rel="stylesheet" type="text/css" href="./styles/main.css">
 
 
-				<div class="collapse navbar-collapse" id="navHeaderCollapse">
-					
-					<ul class="nav navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link href="#">HOME</a>
-						</li>
-						<li class="nav-item">
-							<a  class="nav-link" href="#">ABOUT</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">MENU</a>
-						</li>
-						<li class="nav-µitem">
-							<a class="nav-link" href="#">BLOG</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">CONTACT</a>
-						</li>	
-					</ul>
-				</div>	
+
+		</head>
+		<body>
+
+			<div class="navbar navbar-expand-lg navbar-dark bg-dark">
+				
+				<div class="container">
+					<a href="#" class="navbar-brand"> <i class="fa fa-birthday-cake faa-flash-animated" aria-hidden="true"></i> Iyvaa Bakery</a>
+					<button class="navbar-toggler" data-toggle="collapse" data-target="#navHeaderCollapse" >
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+
+					<div class="collapse navbar-collapse" id="navHeaderCollapse">
+						
+						<ul class="nav navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">HOME</a>
+							</li>
+							<li class="nav-item">
+								<a  class="nav-link" href="#">ABOUT</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">MENU</a>
+							</li>
+							<li class="nav-µitem">
+								<a class="nav-link" href="#">BLOG</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">CONTACT</a>
+							</li>	
+						</ul>
+					</div><!-- .collapse -->	
+				</div><!-- .container -->
+			</div><!-- .navbar -->
+
+			<div class="container main-content">
+				<div class="row">
+					<div class="col-md-7 first-form-col">
+						<h1 class="entry-title">Contact</h1>
+						<form>
+							<div class="form-gruop">
+								<label for="name">Name :</label>
+								<input type="text" name="name" placeholder="Enter name" class ="form-control">
+							</div><!-- .form-group for name-->
+
+							<div class="form-group">
+								<label for="email">Email : </label>
+								<input type="email" class="form-control" placeholder="Enter email" name="email">
+							</div><!-- .form-group for email-->
+
+							<div class="form-group">
+								<label for="message">Message : </label>
+								<textarea class="form-control" name="message" rows="3" placeholder="Enter your queries here"></textarea>
+							</div><!-- .form-group for message -->
+
+							<button class="btn btn-outline-primary" type="submit">Submit</button>
+
+						</form>
+						
+					</div>
+					<div class="col-md-5 text-justify">
+					<div class="address">
+						<h2>Our Location</h2>
+						<strong>Iyvaa Bakery</strong><br>
+						Rajagiriya, <br> 
+						Colombo<br>
+						Phone: +94 112 520 985<br>
+						Mobile: +94 776 811 122<br>
+						Email : iyaabakery@hotmail.com <br>
+					</div>	
+
+						</div>
+				</div>
 			</div>
-		</div>
-	
+
+
+			
+		
 
 
 
 
-		<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-	</body>
+			<!-- Optional JavaScript -->
+	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		</body>
 
-</html>
+	</html>

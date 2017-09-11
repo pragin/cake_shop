@@ -12,9 +12,92 @@
 		<!-- Bootstrap css -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
+		<!-- Font-awesome library -->
+			<link rel="stylesheet" href="./libs/font-awesome-4.7.0/css/font-awesome.min.css">
+
+		<!-- Google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" type="text/css" href="./styles/main.css">
+
+
+
 	</head>
 
 	<body>
+
+		<!--Nav bar -->
+		<div class="navbar navbar-expand-lg navbar-dark custom-nav ">
+				
+				<div class="container">
+					<a href="#" class="navbar-brand"> <i class="fa fa-birthday-cake faa-flash-animated" aria-hidden="true"></i> Iyvaa Bakery</a>
+					<button class="navbar-toggler" data-toggle="collapse" data-target="#navHeaderCollapse" >
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+
+					<div class="collapse navbar-collapse" id="navHeaderCollapse">
+						
+						<ul class="nav navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">HOME</a>
+							</li>
+							<li class="nav-item">
+								<a  class="nav-link" href="#">ABOUT</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">MENU</a>
+							</li>
+							<li class="nav-µitem">
+								<a class="nav-link" href="#">BLOG</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">CONTACT</a>
+							</li>	
+						</ul>
+					</div><!-- .collapse -->	
+				</div><!-- .container -->
+			</div><!-- .navbar -->
+		<!-- Carousel -->
+		<div id="slider" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#slider" data-slide-to="0" class="active"></li>
+				<li data-target="#slider" data-slide-to="1"></li>
+				<li data-target="#slider" data-slide-to="2"></li>				
+			</ol>
+
+			<div class="carousel-inner">
+				<div class="carousel-item active" id="slide1">
+					<!-- <img class="d-block w-100" src="./images/1.jpg" alt="First slide"> -->
+				</div>
+
+				<div class="carousel-item" id="slide2">
+					<!-- <img class="d-block w-100" src="images/2.jpg" alt="Second slide"> -->
+				</div>
+
+				<div class="carousel-item" id="slide3">
+					<!-- <img class="d-block w-100" src="images/3.jpg" alt="Third slide"> -->
+				</div>
+
+				<!-- previous control -->
+				<a class="carousel-control-prev"  href="#slider" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+
+				<!-- Next control -->
+				<a class="carousel-control-next"  href="#slider" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+
+
+				
+
+			</div><!-- /carousel-inner -->
+		</div><!-- /carousel --> 
+
 		<div class="container">
 			<div class="row">
 
