@@ -1,50 +1,59 @@
+* {
+	margin : 0;
+	padding :0 ;
+}
+
+/*Logo style*/
 .navbar-brand{
 	font-family: 'Pacifico', cursive;
-	margin-top: 15px;
+	margin-top: 10px;
 	font-size: 45px;
 	font-weight: 400;
+	padding-right:0;
 }
 
 
-.custom-nav {
+/*Navbar style*/
+.navbar{
 	border-radius: 0;
 	border: 0;
-	background: transparent;
-	z-index: 10;
-
-
+	margin-bottom: 0;
+	font-size: 11px !important;
+	letter-spacing: 4px;
+	background-color: transparent;
+	opacity: 0.9%;
 }
 
-.entry-title {
-	font-family: 'Sail', cursive;
+/*add grey colour to all nav-bar links*/
+.navbar li a, .navbar .navbar-brand{
+	color: #d5d5d5 !important;
 }
 
-.main-content {
-	width: 1160px;
-	margin: 50px auto;
-	/*border: 2px solid green;*/
+/*on hover, the links will turn white*/
+.navbar-nav li a:hover {
+	color: #fff !important;
+}
+/* The active link*/
+.navbar-nav li.active a {
+	color: #fff !important;
+	background-color: #29292c !important;
 }
 
-.first-form-col{
-	width: 860px;
-	margin: 0;
-	padding: 0;
-	float: left;
-	/*border: 1px solid red;*/
+.navbar-toggle {
+	margin-top: 20px;
 }
 
-.address {
-	float: right;
+/*Remove bordor colour from the collapsible button */
+.navbar-default .navar-toggle {
+	border-color: transparent;
 }
 
-.address h2{
-	font-family: 'Sail', cursive;
-	
-}
+/*.navbar-default  {
+	background-color: transparent;
+	border-color: transparent;
+}*/
 
-.address strong {
-	font-size: 25px;
-}
+
 
 #slide1 {
 	background-image:  url('../images/1.jpg');
@@ -79,4 +88,238 @@
 .carousel {
 	margin-top: -110px;
 }
+
+/* Home page description styles*/
+
+#pleasure-section, #review-section{
+	background-color:  #f3f0e9;
+}
+.main-container {
+	padding: 50px 0;
+	/*border: 1px solid red;*/
+	text-align: center;
+	margin: 0 auto;
+}
+
+section h1{
+	padding: 0 0 30px 0;
+}
+
+.product-type, .cake-type {
+	/*border: 1px dotted green;*/
+	margin-top: 50px;
+	padding-top: 2.5%;
+
+
+}
+.product-type img, .cake-type img {
+	width: 200px;
+	height: 250px;
+	margin: auto;
+}
+
+ .cake-type h2 {
+ 	font-family: 'Lobster', cursive;
+ 	color: #ff6d84;
+	font-size: 35px;
+	padding: 0;
+	font-family: 
+}
+
+/*mouse hover styles for .pleasure in index.html*/
+.cake-type:hover {
+	background-color: #e7e7e7;
+
+}
+
+#products-section, #offers-section {
+	background-color: #514040;
+	color: white;
+}
+
+.description {
+	background-color: white;
+	color : black;
+	margin: 0;
+	height: auto;
+	padding-bottom: 30px;
+	min-height: 160px;
+
+}
+
+/* styles for heading "Our Products" in #product-section*/
+.main-container h1 {
+	font-family: 'Lobster', cursive;
+	color: #ff6d84;
+	font-weight: 400;
+}
+
+.product-type h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 19px;
+	margin-top: 0;
+	padding: 20px 0;
+}
+
+.product-type p{
+	line-height: 20px;
+	text-align: center;
+}
+
+
+.product-type {
+	/*width: 20%;*/
+	height: auto;
+	display: inline-block;
+	float: left;
+	/*margin:0 56px 45px 0;*/
+	position: relative;
+
+}
+/*style the border strip between images and descrption in #product-section*/
+.border-strip {
+	border-top: 5px solid #4c3b3b;
+	opacity: 0.5;
+	margin-bottom: -5px;
+	position: relative;
+	top: -5px;
+
+}
+
+/*style for price buttons in homepage #product-section*/
+.price-button {
+	background-color: transparent;
+	border: 1px solid #000;
+	padding: auto 0;
+	margin: 0;
+	display: inline-block;
+	text-align: center;
+	border-radius: 0;
+	margin: 5px 0 5px 0;
+	margin: 10px;
+}
+
+
+/* View all buttons styles*/
+.view-all {
+	border-radius: 0px;
+	background-color: transparent;
+	color: #ff6d84;
+	padding: 5px 30px 5px 30px;
+	margin-top: 50px;
+	font-weight: 400;
+}
+
+/* Change background colour on mouse hover for price buttons*/
+.price-button:hover, .view-all:hover{
+	background-color: #000;
+	color : #fff;
+}
+
+.review-row {
+	/*border: 1px dotted black;*/
+	text-align: center;
+}
+
+/* Style review box under "Our Happy Customers in index.html #review-section"*/
+.review-box {
+	display: inline-block;
+	float: none;
+	border: 1px solid transparent;
+	height: 280px;
+	background-color: #fff;
+	color: #000;
+	margin: 10px 15px 10px 0px;
+	box-shadow: 8px 8px 10px #888888;
+}
+
+.whychoose-box .glyphicon{
+	display: block;
+	font-size: 50px;
+}
+
+.whychoose-box h2 {
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*#whyus-section p {
+	text-align: center;
+	padding-bottom: 20px;
+}*/
+
+/* Footer Styles */
+
+/* Add colour to footer */
+footer {
+	background-color: #2d2d30;
+	color: #f5f5f5;
+	padding: 32px;
+	margin: 0;
+}
+
+
+
+/*Contact.html specific styles*/
+
+.entry-title {
+	font-family: 'Sail', cursive;
+}
+
+.main-content {
+	/*width: 1160px;*/
+	margin-top: 50px;
+	/*border: 2px solid green;*/
+	padding: 50px;
+}
+
+.first-form-col{
+	/*width: 860px;*/
+	margin: 0;
+	padding-right: 20px;
+	/*float: left;*/
+	/*border: 1px solid red;*/
+}
+
+.address {
+	/*float: right;*/
+	/*border: 1px dotted blue;*/
+	margin: 0;
+	/*padding: 10px;*/ 
+
+}
+
+.address h2{
+	font-family: 'Sail', cursive;	
+}
+
+.address strong {
+	font-size: 25px;
+}
+
+.btn-primary {
+	background-color: transparent;
+	color: #2e6da4;
+}
+
+/* This section is used to style back-to-top button */
+.back-to-top {
+	background: none;
+	margin: 0;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 70px;
+	height: 70px;
+	z-index: 100;
+	display: none;
+	text-decoration: hidden;
+	color: #blue;
+	/*background-color: #ff9000;*/
+} 
+
+.back-to-top {
+	font-size: 60px;
+}
+
 
